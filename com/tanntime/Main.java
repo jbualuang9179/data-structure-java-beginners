@@ -23,7 +23,10 @@ public class Main {
         menus.add(new Drink("Cappuccino", "Coffee", 90));
         menus.add(new Drink("Espresso", "Coffee", 65));
 
-        // iterate
+        // ArrayList via index
+//        System.out.println(menus.get(3));
+
+        // --- iterate
         for (Drink menu : menus) {
             System.out.println(menu.toString());
         }
